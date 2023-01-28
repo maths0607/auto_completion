@@ -308,7 +308,7 @@ input.addEventListener("keyup",function(event){
                 curseurSur=0;
                 break;
         }
-        console.log(event.keyCode);
+       
     // }
     
 });
@@ -349,7 +349,7 @@ const afficherLesMatches =function(liste){
     // curseurSur=0
     surligner(curseurSur)
     visibiliteDeMatches("visible");
-    console.log("ici");
+    
 }
 const surligner=function(index){
     for(let i=0;i<matches.length;i++)
