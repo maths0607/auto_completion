@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+#pays{
+    width:50%; 
+    font-size: 20px ;
+    color: #273131;
+    margin-top: 200px;;
+    padding: 10px 50px ;
+    border:1px #ccc solid;
+    border-radius: 50px;     
+}
+#pays:focus,#pays:hover{
+    outline: none;
+    box-shadow:  2px 2px 5px #dedede,
+             -2px 2px 5px #dedede;
+}
+.resultat-conteneur{
+    width: 50%;
+}
+.resultat{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    display: none;
+}
+.resultat.visible{
+    display: block;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin: 9px;
+    padding: 5px;
+    border-bottom: 1px #ccc solid;
+    text-align: center;
+}
+.surligne{
+    background-color: rgba(14, 47, 179, 0.2);
+}
+
